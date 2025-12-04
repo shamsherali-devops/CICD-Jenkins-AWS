@@ -1,5 +1,5 @@
 node{
-    def appdir ="var/www/my-nextjsapp"
+    def appdir ="var/www/my-nextjsapp"  // def is used to define a variable in jenkinsfile 
 
     stage("clean workspace"){
         echo "Cleaning  jenkins workspace"
@@ -10,7 +10,7 @@ node{
         echo "Clonning the repo"
         git (
             branch: 'main',
-            url: ''
+            url: 'https://github.com/shamsherali-devops/CICD-Jenkins-AWS'
         )
 
     }
