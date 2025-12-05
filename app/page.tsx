@@ -36,7 +36,7 @@ export default function Home() {
               href="#contact"
               className="border border-green-700 text-green-800 hover:bg-green-50 font-semibold px-6 py-3 rounded-full transition"
             >
-              Get in Touch
+            Our  Get in Touch
             </a>
           </div>
         </div>
