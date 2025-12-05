@@ -28,7 +28,7 @@ node{
           sudo npm run build
           sudo fuser -k 3000/tcp || true          // to kill the process running on port 3000 if it already running
           npm run start
-
+  #  pm2 restart my-nextjsapp || pm2 start npm --name "my-nextjsapp" -- run start 
 
             
             """
