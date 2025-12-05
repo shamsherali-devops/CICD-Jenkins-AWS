@@ -1,5 +1,5 @@
 node{
-    def appdir ="var/www/my-nextjsapp"  // def is used to define a variable in jenkinsfile 
+    def appdir ="/var/www/my-nextjsapp"  // def is used to define a variable in jenkinsfile 
 
     stage("clean workspace"){
         echo "Cleaning  jenkins workspace"
