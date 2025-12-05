@@ -27,8 +27,8 @@ node{
           sudo npm install
           sudo npm run build
           sudo fuser -k 3000/tcp || true       
-          pm2 restart my-nextjsapp || pm2 start npm --name "my-nextjsapp" -- run start
-
+        #  pm2 restart my-nextjsapp || pm2 start npm --name "my-nextjsapp" -- run start
+           npm run dev
 
             
             """
